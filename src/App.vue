@@ -10,8 +10,8 @@
       </ul>
       <img v-if="step == 0" src="./assets/logo.png" class="logo" />
     </div>
-    <p>{{ $store.state.more }}</p>
-    <button @click="$store.dispatch('getData')">더보기 버튼</button>
+    <!-- <p>{{ $store.state.more }}</p>
+    <button @click="$store.dispatch('getData')">더보기 버튼</button> -->
     <Container
       :게시물="게시물"
       :step="step"

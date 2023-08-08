@@ -18,9 +18,7 @@
         <img
           class="like__icon"
           @click="$store.commit('좋아요')"
-          :src="
-            $store.state.liked ? $store.state.likedIcon : $store.state.likeIcon
-          "
+          src="../assets/liked.png"
         />{{ $store.state.likes }}Likes
       </p>
       <p>
